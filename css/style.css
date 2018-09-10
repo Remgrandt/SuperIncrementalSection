@@ -1,0 +1,29 @@
+/* styles */
+
+@font-face{
+	font-family: BumpItUp;
+	src: url(../font/bump-it-up.ttf);
+}
+
+html,body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	border: 0;
+	overflow: hidden;
+	/*  Disable scrollbars */
+	display: block;
+	background:#000;
+	/* No floating content on sides */
+	font-family: BumpItUp;
+}
+
+svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+  }
